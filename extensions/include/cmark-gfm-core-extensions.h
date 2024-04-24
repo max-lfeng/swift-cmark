@@ -7,6 +7,11 @@ extern "C" {
 
 #include "cmark-gfm-extension_api.h"
 #include "export.h"
+#include "table.h"
+#include "autolink.h"
+#include "strikethrough.h"
+#include "tagfilter.h"
+#include "tasklist.h"
 
 #include <stdbool.h>
 #include <stdint.h>
